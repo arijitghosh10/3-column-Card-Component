@@ -1,0 +1,68 @@
+#parent{
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-top: 100px;
+}
+h2{
+    font-size: xx-large;
+    color:hsl(0, 0%, 95%);
+    margin: 20px 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+.flexing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+}
+button{
+    margin-top: 65px;
+}
+.allsame1{
+    color: hsl(31,77%,52%);
+}
+.allsame2{
+    color: hsl(184,100%,22%);
+}
+.allsame3{
+    color: hsl(179,100%,13%);
+}
+html{
+    background-color: hsl(0, 0%, 95%);
+}
+@media(max-width:770px){
+    #parent{
+        margin: 30px auto;
+        max-width: 90%;
+    }
+    .first{
+        border-top-right-radius: 2%;
+        border-bottom-left-radius: 0;
+    }
+    .third{
+        border-bottom-left-radius: 2%;
+        border-top-right-radius: 0;
+    }
+}
+@media(min-width:1400px){
+    #parent{
+        margin-top: 210px;
+    }
+}
